@@ -376,3 +376,91 @@ ul.member-social-links li i.fa-linkedin {
 }
 
 /* End css team work*/
+
+
+/* Start css testimonials*/
+.testimonials{
+    background: #0b1521 url(img/testi-bg.png) fixed;
+    color: #fff;
+}
+
+.testimonials-header{
+    padding-top: 41px;
+    padding-bottom: 66px;
+}
+
+.testimonials-header p{
+    padding-top: 8px;
+}
+
+.testimonials-carousel li{
+    text-align: center;
+}
+
+.testimonials-carousel li img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 46px;
+    margin-top: 63px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.testimonials-carousel li p.name {
+    color: #e74c3c;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -6px;
+}
+
+.testimonials-carousel li p.position{
+    font-size: 18px;
+    margin-bottom: 52px;
+}
+
+blockquote {
+    border: none;
+    line-height: 1.5em;
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    padding: 0;
+    width: 715px;
+}
+
+blockquote:before {
+    position: absolute;
+    content: "\f10d";
+    top: -5px;
+    left: -20px;
+    font-family: FontAwesome;
+}
+
+blockquote:after {
+    position: absolute;
+    content: "\f10e";
+    bottom: -5px;
+    right: -20px;
+    font-family: FontAwesome;
+}
+
+.testipager li {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.testipager li:last-child {
+    margin-right: 0px;
+}
+
+.testipager li a {
+    color: #fff;
+}
+
+.testipager li.selected a {
+    color: #e74c3c;
+}
+/* End css testimonials*/

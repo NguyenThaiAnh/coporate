@@ -90,3 +90,7 @@ ul li {
 .bold{
     font-weight: bold;
 }
+
+.center{
+    text-align: center;
+}
