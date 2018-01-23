@@ -1,4 +1,4 @@
-*, body, html {
+*, body, html, p {
     margin: 0;
     padding: 0;
 }
@@ -81,4 +81,12 @@ ul {
 }
 ul li {
     display: inline-block;
+}
+
+.white{
+    color: #fff;
+}
+
+.bold{
+    font-weight: bold;
 }

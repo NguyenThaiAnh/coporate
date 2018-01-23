@@ -1,6 +1,6 @@
 .row {
     margin: 0 auto;
-    width: 1142px;
+    width: 1152px;
 }
 
 /* Start css header*/
@@ -49,13 +49,13 @@ header nav ul li a:hover, header nav ul li a:focus {
     text-align: center;
 }
 
-.slider ul.slider-carousel li h1{
+.slider ul.slider-carousel li h1 {
     margin-top: 150px;
     margin-bottom: 34px;
     color: #fff;
 }
 
-.slider ul.slider-carousel li p{
+.slider ul.slider-carousel li p {
     margin-bottom: 77px;
     color: #fff;
 }
@@ -66,13 +66,12 @@ header nav ul li a:hover, header nav ul li a:focus {
     color: #fff;
     font-weight: bold;
     transition: all 0.3s ease-in;
-    -webkit-transition:all 0.3s ease-in;
-    -moz-transition:all 0.3s ease-in;
-    -o-transition:all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
 
-.slider ul.slider-carousel li a:last-child
-{
+.slider ul.slider-carousel li a:last-child {
     margin-right: 0px;
 }
 
@@ -91,38 +90,289 @@ header nav ul li a:hover, header nav ul li a:focus {
     background-size: 100% 100%;
 }
 
-
-.slider ul.slider-carousel li a.cta1:hover
-{
+.slider ul.slider-carousel li a.cta1:hover {
     background-color: #ff695a;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
-.slider ul.slider-carousel li a.cta2:hover
-{
+
+.slider ul.slider-carousel li a.cta2:hover {
     background-color: #3f9cfa;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
 
-.slider ul.sliderpager{
+.slider ul.sliderpager {
     position: relative;
     bottom: 48px;
 }
 
-.slider ul.sliderpager li{
+.slider ul.sliderpager li {
     margin: 0 6px;
     height: 28px;
     line-height: 28px;
 }
 
-.slider ul.sliderpager li a{
+.slider ul.sliderpager li a {
     color: #34495e;
 }
 
-.slider ul.sliderpager li.selected a{
+.slider ul.sliderpager li.selected a {
     color: #e74c3c;
 }
+
 /* End css slider*/
+
+/* Start css services*/
+.services {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.service-content-1 {
+    margin-bottom: 40px;
+}
+
+.service-content-2 {
+    margin-bottom: 47px;
+}
+
+.services-header p {
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+.services-content p {
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+
+.services-content i.fa {
+    font-size: 32px;
+    color: #333333;
+}
+
+.services-content h3 {
+    margin-top: 2px;
+    margin-bottom: -4px;
+}
+
+/* End css services*/
+
+/* Start css our work*/
+.portfolio {
+
+    color: #fff;
+    background: url('img/portfolio/portfolio-bg.png') fixed;
+    background-size: 100% 100%;
+}
+
+.portfolio .portfolio-header {
+    text-align: center;
+}
+
+.portfolio .portfolio-header h1 {
+    color: white;
+    padding-top: 60px;
+}
+
+.portfolio .portfolio-header p {
+    padding-top: 12px;
+    padding-bottom: 54px;
+}
+
+.portfolio .inner-content {
+    position: relative;
+    width: 265px;
+    height: 225px;
+
+}
+
+.portfolio .inner-content img {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.portfolio .inner-content .overlay-content {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+
+}
+
+.portfolio-carousel li {
+    margin-right: 12px;
+    margin-left: 0px;
+}
+
+.portfolio .inner-content .overlay-content h3, .portfolio .inner-content .overlay-content p {
+    color: white;
+}
+
+.portfolio .inner-content .overlay-content h3 {
+    padding-top: 20%;
+    color: #e74c3c;
+}
+
+.portfolio .inner-content:hover .overlay-content {
+    top: 0px;
+}
+
+.portfolio .inner-content .overlay-content p a {
+    color: #2d82d8;
+    font-weight: bold;
+}
+
+.portfolio .portfolio-nav {
+    text-align: center;
+    margin: 66px 0px;
+}
+
+.portfolio .portfolio-nav li {
+    cursor: pointer;
+    margin-right: 6px;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.portfolio .portfolio-nav li:last-child {
+    margin-right: 0px;
+}
+
+.portfolio .portfolio-nav li:hover {
+    background-color: #e74c3c;
+}
+
+/* End css our work*/
+
+/* start css team work*/
+.team .team-header {
+    margin-top: 60px;
+    margin-bottom: 64px;
+    text-align: center;
+    color: #555;
+}
+
+.team .team-header h1 {
+    margin-bottom: 20px;
+}
+
+.team .inner-content {
+    position: relative;
+    width: 265px;
+    height: 225px;
+
+}
+
+.team .inner-content img {
+    width: 100%;
+    height: 100%
+}
+
+.team .inner-content .overlay-content {
+    position: absolute;
+    padding: 25px 26px 10px 26px;
+    top: 100%;
+    left: 0px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.team .inner-content .overlay-content  p.name{
+    font-size: 18px;
+}
+
+.team .inner-content .overlay-content p.position{
+    margin-bottom: 10px;
+}
+
+.team-carousel li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.team .inner-content:hover .overlay-content {
+    top: 0px;
+}
+
+.team .team-nav {
+    text-align: center;
+    margin: 67px 0;
+}
+.team .team-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 25px;
+    color: #555;
+    border: 2px solid #555;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.team .team-nav li:last-child {
+    margin-right: 0px;
+}
+
+.team .team-nav li:hover {
+    background-color: #e74c3c;
+}
+.member-social-links li{
+    margin-top: 18px;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.member-social-links li a i{
+    color: #fff;
+}
+
+.member-social-links li i {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+
+ul.member-social-links li i.fa-facebook {
+    background-color: #3b5998;
+}
+
+ul.member-social-links li i.fa-twitter {
+    background-color: #00aced;
+}
+
+ul.member-social-links li i.fa-linkedin {
+    background-color: #007bb6;
+}
+
+/* End css team work*/
