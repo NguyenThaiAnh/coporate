@@ -464,3 +464,43 @@ blockquote:after {
     color: #e74c3c;
 }
 /* End css testimonials*/
+
+/* Start css blog*/
+.blog-header{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.blog b.date{
+    color: #333;
+}
+
+.blog h3{
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.blog h3 a{
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.blog h3 a:hover{
+    color: #e74c3c;
+}
+
+.blog .blog-header p{
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.blog p.post-description{
+    margin-bottom: 22px;
+}
+
+.blog p.post-content{
+    margin-bottom: 54px;
+}
+/* End css blog*/
