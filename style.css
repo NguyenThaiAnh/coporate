@@ -537,19 +537,127 @@ input:not([type = submit]), textarea {
     width: 100%;
     height: 42px;
     padding-left: 40px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2) inset;
     margin-bottom: 14px;
 }
 
-textarea{
+textarea {
     height: 100%;
     padding-top: 11px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     border: none;
     background-color: #e74c3c;
     padding: 13px 47px;
     font-weight: bold;
     margin-bottom: 44px;
 }
-/* Start css Contact*/
+
+/* End css Contact*/
+
+/* Start css Footer*/
+footer h1 {
+    padding-top: 44px;
+    padding-bottom: 30px;
+}
+
+footer p.about {
+    margin-bottom: 49px;
+}
+
+footer p.envelope, footer p.mobile, footer.arrow{
+    margin-bottom: 6px;
+}
+
+footer p i.fa {
+    color: #2d82d8;
+    padding-right: 24px;
+    font-size: 18px;
+}
+
+footer p i.fa-mobile {
+    font-size: 32px;
+    margin-left: 2px;
+}
+
+footer p i.fa-location-arrow {
+    font-size: 22px;
+}
+
+footer p span {
+    font-weight: bold;
+}
+
+footer p span.contact-phone {
+    line-height: 32px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form.update-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 40px;
+    color: #777;
+    padding-left: 20px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3) inset;
+    border: none;
+}
+
+form.update-form {
+    width: 100%;
+    text-align: inherit;
+}
+
+input#submit-button{
+    padding: 14px 42px;
+    margin-top: 5px;
+}
+
+#take-email {
+    margin-bottom: 5px;
+}
+
+.footer-social-links li {
+    padding: 0 10px;
+    font-size: 28px;
+}
+
+.footer-social-links li a i.fa-facebook {
+    color: #3b5998;
+}
+
+.footer-social-links li a i.fa-twitter {
+    color: #00aced;
+}
+
+.footer-social-links li a i.fa-youtube {
+    color: #bb0000;
+}
+
+.footer-social-links li a i.fa-linkedin {
+    color: #007bb5;
+}
+
+.footer-social-links li a i.fa-dribbble {
+    color: #ea4c89;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 92px;
+}
+
+footer p span.primary {
+    padding-left: 0px;
+}
+
+.copyright p {
+    margin: 0 0 0 0;
+}
+
+/* End css Footer*/
