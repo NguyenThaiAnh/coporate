@@ -298,11 +298,12 @@ header nav ul li a:hover, header nav ul li a:focus {
     width: 100%;
     height: 100%;
 }
-.team .inner-content .overlay-content  p.name{
+
+.team .inner-content .overlay-content p.name {
     font-size: 18px;
 }
 
-.team .inner-content .overlay-content p.position{
+.team .inner-content .overlay-content p.position {
     margin-bottom: 10px;
 }
 
@@ -319,6 +320,7 @@ header nav ul li a:hover, header nav ul li a:focus {
     text-align: center;
     margin: 67px 0;
 }
+
 .team .team-nav li {
     cursor: pointer;
     margin-right: 10px;
@@ -341,7 +343,8 @@ header nav ul li a:hover, header nav ul li a:focus {
 .team .team-nav li:hover {
     background-color: #e74c3c;
 }
-.member-social-links li{
+
+.member-social-links li {
     margin-top: 18px;
     font-size: 14px;
     width: 28px;
@@ -349,7 +352,7 @@ header nav ul li a:hover, header nav ul li a:focus {
     line-height: 28px;
 }
 
-.member-social-links li a i{
+.member-social-links li a i {
     color: #fff;
 }
 
@@ -361,7 +364,6 @@ header nav ul li a:hover, header nav ul li a:focus {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
 }
-
 
 ul.member-social-links li i.fa-facebook {
     background-color: #3b5998;
@@ -377,27 +379,26 @@ ul.member-social-links li i.fa-linkedin {
 
 /* End css team work*/
 
-
 /* Start css testimonials*/
-.testimonials{
+.testimonials {
     background: #0b1521 url(img/testi-bg.png) fixed;
     color: #fff;
 }
 
-.testimonials-header{
+.testimonials-header {
     padding-top: 41px;
     padding-bottom: 66px;
 }
 
-.testimonials-header p{
+.testimonials-header p {
     padding-top: 8px;
 }
 
-.testimonials-carousel li{
+.testimonials-carousel li {
     text-align: center;
 }
 
-.testimonials-carousel li img{
+.testimonials-carousel li img {
     width: 165px;
     height: 165px;
     border-radius: 50%;
@@ -415,7 +416,7 @@ ul.member-social-links li i.fa-linkedin {
     margin-bottom: -6px;
 }
 
-.testimonials-carousel li p.position{
+.testimonials-carousel li p.position {
     font-size: 18px;
     margin-bottom: 52px;
 }
@@ -463,44 +464,92 @@ blockquote:after {
 .testipager li.selected a {
     color: #e74c3c;
 }
+
 /* End css testimonials*/
 
 /* Start css blog*/
-.blog-header{
+.blog-header {
     margin-top: 60px;
     text-align: center;
+
 }
 
-.blog b.date{
+.blog b.date {
     color: #333;
 }
 
-.blog h3{
+.blog h3 {
     margin-top: 32px;
     margin-bottom: 10px;
 }
 
-.blog h3 a{
+.blog h3 a {
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
 }
 
-.blog h3 a:hover{
+.blog h3 a:hover {
     color: #e74c3c;
 }
 
-.blog .blog-header p{
+.blog .blog-header p {
     margin-top: 20px;
     margin-bottom: 65px;
 }
 
-.blog p.post-description{
+.blog p.post-description {
     margin-bottom: 22px;
 }
 
-.blog p.post-content{
+.blog p.post-content {
     margin-bottom: 54px;
 }
+
 /* End css blog*/
+
+/* Start css Contact*/
+.contact {
+    text-align: center;
+    background: url('img/contact-bg.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+}
+
+.contact .contact-header {
+    padding-top: 42px;
+    padding-bottom: 65px;
+}
+
+.contact .contact-header h1 {
+    padding-bottom: 11px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input:not([type = submit]), textarea {
+    width: 100%;
+    height: 42px;
+    padding-left: 40px;
+    margin-bottom: 14px;
+}
+
+textarea{
+    height: 100%;
+    padding-top: 11px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: #e74c3c;
+    padding: 13px 47px;
+    font-weight: bold;
+    margin-bottom: 44px;
+}
+/* Start css Contact*/
