@@ -1,6 +1,6 @@
 .row {
     margin: 0 auto;
-    width: 1152px;
+    /*width: 1152px;*/
 }
 
 /* Start css header*/
@@ -61,6 +61,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .slider ul.slider-carousel li a {
+    font-size: 24px;
     padding: 16px 70px;
     margin-right: 30px;
     color: #fff;

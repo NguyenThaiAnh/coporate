@@ -94,6 +94,10 @@ $(document).ready(function () {
         }
     });
 
+    $("#menu").slicknav({
+        label: "",
+    });
+
 
     $(window).scroll(function () {
         var top = $(window).scrollTop();
