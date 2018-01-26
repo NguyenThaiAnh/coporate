@@ -5,7 +5,7 @@ $(document).ready(function () {
         circular: true,
         scroll: {
             items: 1,
-            duration: 500,
+            duration: 50000,
             pauOnHover: true
         },
         auto: true,

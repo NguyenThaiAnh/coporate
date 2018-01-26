@@ -56,7 +56,8 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .slider ul.slider-carousel li p {
-    margin-bottom: 77px;
+    width: 480px;
+    margin: 0 auto 77px auto;
     color: #fff;
 }
 
@@ -141,6 +142,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .services-header p {
+    padding: 0 15px;
     margin-top: 20px;
     margin-bottom: 56px;
 }
@@ -555,6 +557,13 @@ input[type="submit"] {
     margin-bottom: 44px;
 }
 
+input[type="submit"]:hover {
+    background-color: #ff695a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
 /* End css Contact*/
 
 /* Start css Footer*/
@@ -567,7 +576,7 @@ footer p.about {
     margin-bottom: 49px;
 }
 
-footer p.envelope, footer p.mobile, footer.arrow{
+footer p.envelope, footer p.mobile, footer.arrow {
     margin-bottom: 6px;
 }
 
@@ -610,7 +619,7 @@ form.update-form {
     text-align: inherit;
 }
 
-input#submit-button{
+input#submit-button {
     padding: 14px 42px;
     margin-top: 5px;
 }
