@@ -123,9 +123,9 @@
     }
 
     .slider ul.slider-carousel li p{
+        width: 370px;
         margin-bottom: 25px;
         color: #fff;
-        padding: 0 15px;
     }
 
     .slider ul.slider-carousel li a {
